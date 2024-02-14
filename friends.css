@@ -14,13 +14,33 @@ h1 {
   color: #ff3366; /* Pink */
   font-size: 36px;
   margin-bottom: 20px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2); /* Text shadow for emphasis */
 }
 
 p {
   color: #333; /* Dark grey */
   margin-top: 20px;
+  line-height: 1.5; /* Increase line height for readability */
 }
 
 iframe {
   margin-top: 20px;
+  border-radius: 10px; /* Rounded corners for the iframe */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for the iframe */
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  margin: 10px;
+  cursor: pointer;
+  background-color: #ff3366; /* Pink */
+  border: none;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow for the button */
+}
+
+button:hover {
+  background-color: #ff1a4d; /* Darker pink on hover */
 }
