@@ -1,6 +1,6 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffecf2; /* Light pink */
   margin: 0;
   padding: 0;
 }
@@ -11,16 +11,16 @@ body {
 }
 
 h1 {
-  color: #333;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-  margin-top: 20px;
+  color: #ff3366; /* Pink */
+  font-size: 36px;
+  margin-bottom: 20px;
 }
 
 p {
+  color: #333; /* Dark grey */
   margin-top: 20px;
-  color: #666;
+}
+
+iframe {
+  margin-top: 20px;
 }
